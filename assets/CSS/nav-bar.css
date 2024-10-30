@@ -1,0 +1,31 @@
+.container-bar {
+  display: flex;
+  background-color: rgba(243, 208, 7, 0.562);
+  padding: 5%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 65px;
+  margin-inline: 50px;
+}
+
+.navigation-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 203, 7, 0.815);
+  border: none;
+  height: 50px;
+  border-radius: 45px;
+  padding: 2%;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(51, 33, 0);
+}
+
+#main-btn {
+  flex-grow: 1;
+}
+
+#main-btn::before {
+  content: url();
+}
