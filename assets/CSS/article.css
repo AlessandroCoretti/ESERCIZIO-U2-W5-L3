@@ -1,0 +1,28 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.main-article {
+  display: flex;
+  background-color: rgba(255, 238, 86, 0.658);
+  color: rgb(51, 33, 0);
+  padding: 2%;
+  justify-content: center;
+  align-items: start;
+  margin-top: 2.5rem;
+  margin-inline: 7rem;
+}
+
+.paragraph {
+  margin-left: 2%;
+}
+
+.paragraph h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.paragraph p {
+  font-weight: 500;
+  font-size: 20px;
+}
