@@ -1,11 +1,11 @@
 .container-bar {
   display: flex;
-  background-color: rgba(243, 208, 7, 0.562);
-  padding: 5%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  border-radius: 65px;
-  margin-inline: 50px;
+  background-color: rgb(245 195 0 / 50%);
+  margin-inline: 5%;
+  padding: 2rem;
+  border-radius: 10rem;
 }
 
 .navigation-btn {
@@ -14,18 +14,22 @@
   align-items: center;
   background-color: rgba(247, 203, 7, 0.815);
   border: none;
-  height: 50px;
-  border-radius: 45px;
-  padding: 2%;
-  font-weight: 600;
-  font-size: 18px;
-  color: rgb(51, 33, 0);
+  padding: 1%;
+  font-size: 2rem;
+  width: 18rem;
+  border-radius: 10rem;
+  height: 6rem;
+  color: #8d2705e8;
 }
 
 #main-btn {
-  flex-grow: 1;
+  height: 10rem;
+  font-size: 2.5rem;
+  overflow: hidden;
+  padding-inline: 4rem;
 }
 
-#main-btn::before {
-  content: url();
+.bee-logo {
+  width: 100%;
+  height: 100%;
 }
